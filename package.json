@@ -9,7 +9,7 @@
   "homepage": "",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npm install --save-dev ./lib"
+    "preinstall": "npm install ./lib"
   },
   "dependencies": {},
   "devDependencies": {
