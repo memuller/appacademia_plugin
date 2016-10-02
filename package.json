@@ -1,0 +1,16 @@
+{
+  "name": "bricks-sample",
+  "description": "",
+  "author": {
+    "name": "Matheus E. Muller",
+    "email": "hello@memuller.com",
+    "url": "http://memuller.com"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bricks": "file:lib",
+    "gulp": "^3.9.1"
+  }
+}
