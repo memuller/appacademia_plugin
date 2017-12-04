@@ -30,5 +30,5 @@
 		"installer-paths": {
 			"vendor/{$vendor}.{$name}": [ "type:wordpress-plugin" ]
 		}
-		
+	}
 }
