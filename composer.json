@@ -1,0 +1,34 @@
+{
+	"name": "memuller/bricks-starter",
+	"type": "project",
+	"description": "A delightful plugin framework for building complex Wordpress sites.",
+	"authors": [
+		{
+			"name": "Matheus E. Muller",
+			"email": "hello@memuller.com"
+		}
+	],
+
+	"require": {
+		"php": ">=7",
+		"memuller/bricks": "dev-master"
+	},
+
+
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"url": "https://github.com/memuller/bricks.git",
+			"type": "git"
+		},
+		{
+			"url": "https://github.com/humanmade/Custom-Meta-Boxes.git",
+			"type": "git"
+		}
+	],
+	"extra": {
+		"installer-paths": {
+			"vendor/{$vendor}.{$name}": [ "type:wordpress-plugin" ]
+		}
+		
+}
